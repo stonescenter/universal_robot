@@ -8,6 +8,11 @@
   <!-- ur10 -->
   <xacro:include filename="$(find ur_description)/urdf/ur10.urdf.xacro" />
 
+  <!-- gripper  -->
+  <xacro:include filename="$(find ur_description)/urdf/misc/robotiq_gripper.urdf.xacro" />
+  
+  <xacro:include filename="$(find ur_description)/urdf/misc/kinect.urdf.xacro" />
+  
   <!-- arm -->
   <xacro:ur10_robot prefix="" joint_limited="true"/>
 
