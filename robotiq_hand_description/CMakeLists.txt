@@ -9,7 +9,7 @@ find_package(catkin REQUIRED)
 catkin_package(
 )
 
-set(standalone_name "drcsim_gazebo_standalone_models")
+set(standalone_name "robotiq_gazebo_standalone_models")
 
 install(DIRECTORY urdf meshes robots launch
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
